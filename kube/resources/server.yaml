@@ -161,15 +161,10 @@ spec:
           ports:
             - containerPort: 8001
           volumeMounts:
-            - name: airbyte-volume-configs
-              mountPath: /configs
             - name: gcs-log-creds-volume
               mountPath: /secrets/gcs-log-creds
               readOnly: true
       volumes:
-        - name: airbyte-volume-configs
-          persistentVolumeClaim:
-            claimName: airbyte-volume-configs
         - name: gcs-log-creds-volume
           secret:
             secretName: gcs-log-creds

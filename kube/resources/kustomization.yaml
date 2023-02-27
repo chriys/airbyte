@@ -12,7 +12,6 @@ resources:
   - admin-service-account.yaml
   - server.yaml
   - temporal.yaml
-  - volume-configs.yaml
   - volume-db.yaml
   - webapp.yaml
   - worker.yaml
