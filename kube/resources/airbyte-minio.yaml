@@ -55,7 +55,7 @@ spec:
   resources:
     # This is the request for storage. Should be available in the cluster.
     requests:
-      storage: 2000Mi
+      storage: 20Gi
 ---
 apiVersion: v1
 kind: Service
