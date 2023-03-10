@@ -8,3 +8,6 @@
 *.swo
 .DS_STORE
 .vscode
+.venv/
+.hypothesis/
+secrets/

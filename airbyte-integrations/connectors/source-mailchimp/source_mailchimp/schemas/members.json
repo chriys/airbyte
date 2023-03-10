@@ -1,0 +1,120 @@
+{
+  "type": "object",
+  "title": "Members",
+  "description": "Get information about members in a specific Mailchimp list.",
+  "properties": {
+    "id": {
+      "type": "string",
+      "title": "The unique id for the list.",
+      "description": "The unique id for the list."
+    },
+    "email_address": {
+      "type": "string",
+      "title": "Email address for a subscriber.",
+      "description": "Email address for a subscriber."
+    },
+    "unique_email_id": {
+      "type": "string",
+      "title": "email MD5 hash.",
+      "description": "The MD5 hash of the lowercase version of the list member's email address."
+    },
+    "contact_id": {
+      "type": "string",
+      "title": "contact ID",
+      "description": "Contact info of the subscriber."
+    },
+    "full_name": {
+      "type": "string",
+      "title": "subscriber full name",
+      "description": "Full name of the subscriber."
+    },
+    "web_id": {
+      "type": "string",
+      "title": "web id",
+      "description": "Web ID of the subscriber."
+    },
+    "email_type": {
+      "type": "string",
+      "title": "email type",
+      "description": "Email type preference of the subscriber."
+    },
+    "status": {
+      "type": "string",
+      "title": "subscriber status",
+      "description": "Status of the subscriber."
+    },
+    "unsubscribe_reason": {
+      "type": "string",
+      "title": "unsubscribe reason",
+      "description": "Reason for unsubscribing the subscriber."
+    },
+    "consents_to_one_to_one_messaging": {
+      "type": "boolean",
+      "title": "consents to one to one messaging",
+      "description": "Consent to receive one-to-one messages."
+    },
+    "language": {
+      "type": "string",
+      "title": "language",
+      "description": "Language preference of the subscriber."
+    },
+    "timestamp_signup": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Action date and time",
+      "description": "The date and time recorded for the action in ISO 8601 format",
+      "format": "date-time"
+    },
+    "ip_signup": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Action ip address",
+      "description": "The IP address recorded for the action."
+    },
+    "timestamp_opt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Action date and time",
+      "description": "The date and time recorded for the action in ISO 8601 format",
+      "format": "date-time"
+    },
+    "last_changed": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Action date and time",
+      "description": "The date and time the list member was last changed in ISO 8601 format",
+      "format": "date-time"
+    },
+    "ip_opt": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "title": "Action ip address",
+      "description": "The IP address recorded for the action."
+    },
+    "member_rating": {
+      "type": "string",
+      "title": "member rating",
+      "description": "Member rating of the subscriber."
+    },
+    "vip": {
+      "type": "boolean",
+      "title": "VIP status",
+      "description": "VIP status of the subscriber."
+    },
+    "email_client": {
+      "type": "string",
+      "title": "email client",
+      "description": "Email client used by the subscriber."
+    }
+  }
+}
